@@ -29,6 +29,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite example --open",
+    "publish": "pnpm publish --access public --no-git-checks",
     "prepublishOnly": "pnpm build"
   },
   "keywords": [
